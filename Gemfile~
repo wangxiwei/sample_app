@@ -2,12 +2,13 @@ source 'http://ruby.taobao.org'
 
 gem 'rails', '3.2.13'
 
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
-  gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'sqlite3'
 end
 
 
@@ -30,9 +31,10 @@ group :test do
   gem 'capybara', '2.1.0.beta1'
 end
 
-group :production do
+group :product do
   gem 'pg'
 end
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
